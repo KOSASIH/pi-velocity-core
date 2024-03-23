@@ -1,8 +1,8 @@
-from flask import jsonify, make_response, request
+from flask import jsonify, request
 
 from src import app, db
 from src.models import Block
-from src.serializers import deserialize, serialize
+from src.serializers import serialize
 
 
 @app.route("/")

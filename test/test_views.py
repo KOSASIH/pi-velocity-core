@@ -2,8 +2,6 @@ import json
 
 import unittest
 
-import app
-
 from test.__init__ import TestCase
 
 class TestViews(TestCase):
