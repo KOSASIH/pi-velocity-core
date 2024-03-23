@@ -35,5 +35,5 @@ For any questions, feedback, or suggestions, please don't hesitate to reach out 
 
  
 
-![](https://img.shields.io/github/forks/KOSASIH/pi-velocity-core.svg?style=social&label=Fork& maxAge=2592000)
+![](https://img.shields.io/github/forks/KOSASIH/pi-velocity-core.svg?style=social&label=Fork&-maxAge=2592000)
 
