@@ -1,5 +1,5 @@
 # Standard library dependencies
-Flask==2.1.1
+Flask==2.2.5
 
 # Third-party dependencies
 nltk==3.7
