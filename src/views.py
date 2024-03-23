@@ -1,10 +1,11 @@
-from flask import make_response, jsonify, request
+from flask import jsonify, make_response, request
 
 from src import app, db
 from src.models import Block
-from src.serializers import serialize, deserialize
+from src.serializers import deserialize, serialize
 
-@app.route('/')
+
+@app.route("/")
 def index():
     """
     Handles the root route
@@ -13,9 +14,10 @@ def index():
         str: A greeting message
     """
 
-    return 'Hello, World!'
+    return "Hello, World!"
 
-@app.route('/blocks', methods=['GET', 'POST'])
+
+@app.route("/blocks", methods=["GET", "POST"])
 def blocks():
     """
     Handles the blocks route
@@ -27,22 +29,23 @@ def blocks():
         str: A JSON-encoded string
     """
 
-    if request.method == 'GET':
+    if request.method == "GET":
         blocks = Block.query.all()
 
         return serialize(blocks)
 
-    elif request.method == 'POST':
+    if request.method == "POST":
         data = request.json
 
-        block = Block.create(data['data'])
+        block = Block.create(data["data"])
 
         db.session.add(block)
         db.session.commit()
 
         return serialize(block), 201
 
-@app.route('/blocks/<int:block_id>', methods=['PUT', 'DELETE'])
+
+@app.route("/blocks/<int:block_id>", methods=["PUT", "DELETE"])
 def block(block_id):
     """
     Handles the individual block route
@@ -57,24 +60,25 @@ def block(block_id):
         str: A JSON-encoded string
     """
 
-    if request.method == 'PUT':
+    if request.method == "PUT":
         data = request.json
 
         block = Block.query.get(block_id)
 
-        block.data = data['data']
+        block.data = data["data"]
 
         db.session.commit()
 
         return serialize(block)
 
-    elif request.method == 'DELETE':
+    if request.method == "DELETE":
         block = Block.query.get(block_id)
 
         db.session.delete(block)
         db.session.commit()
 
-        return jsonify({'result': 'success'})
+        return jsonify({"result": "success"})
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     app.run()
