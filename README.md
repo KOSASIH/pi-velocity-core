@@ -13,3 +13,27 @@ Pi Velocity Core is a high-performance, lightweight, and feature-rich DNS cachin
 # Installation
 The recommended way to install Pi Velocity Core is by using pip as follows:
 
+# Getting Started
+Pi Velocity Core just needs to be imported to be activated. For example, the following program will start using cached DNS responses after the first request.
+
+# Managing Local Cache
+The cache can be stored locally. None of the following methods return anything or take arguments, just call them at will.
+
+# Manually Caching Hostnames
+A hostname can be cached manually as follows:
+
+# Accessing Database
+In-memory cache databases can be accessed withpi_velocity_core.get_db() and pi_velocity_core.get_records() methods.
+
+# License
+Pi Velocity Core is released under the BSD 3 clause license.
+
+About
+Pi Velocity Core is a product of pi-velocity project.
+
+For any questions, feedback, or suggestions, please don't hesitate to reach out to KOSASIH on GitHub.
+
+ 
+
+![](https://img.shields.io/github/forks/KOSASIH/pi-velocity-core.svg?style=social&label=Fork& maxAge=2592000)
+
