@@ -32,7 +32,7 @@ def blocks():
 
         return serialize(blocks)
 
-    elif request.method == 'POST':
+    if request.method == 'POST':
         data = request.json
 
         block = Block.create(data['data'])
@@ -68,7 +68,7 @@ def block(block_id):
 
         return serialize(block)
 
-    elif request.method == 'DELETE':
+    if request.method == 'DELETE':
         block = Block.query.get(block_id)
 
         db.session.delete(block)
