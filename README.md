@@ -26,7 +26,7 @@ A hostname can be cached manually as follows:
 In-memory cache databases can be accessed withpi_velocity_core.get_db() and pi_velocity_core.get_records() methods.
 
 # License
-Pi Velocity Core is released under the BSD 3 clause license.
+Pi Velocity Core is released under the [MIT license](LICENSE.md) 
 
 About
 Pi Velocity Core is a product of pi-velocity project.
