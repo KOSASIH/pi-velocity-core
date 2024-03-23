@@ -14,9 +14,9 @@ Pi Velocity Core is a high-performance, lightweight, and feature-rich DNS cachin
 Pi Velocity Core is released under the [MIT license](LICENSE.md) 
 
 About
-Pi Velocity Core is a product of [pi-velocity project](https://github.com/users/KOSASIH/projects/288). 
+Pi Velocity Core is a product of pi-velocity project. 
 
-For any questions, feedback, or suggestions, please don't hesitate to reach out to KOSASIH on GitHub.
+For any questions, feedback, or suggestions, please don't hesitate to reach out to [KOSASIH](https://www.linkedin.com/in/kosasih-81b46b5a) on LinkedIn.
 
  
 
