@@ -18,6 +18,7 @@ def handle_incoming_connections(listener):
         thread = threading.Thread(target=handle_client_connection, args=(connection,))
         thread.start()
 
+
 def handle_client_connection(connection):
     """
     Handles a single incoming connection from a client.
