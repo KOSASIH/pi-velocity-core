@@ -1,6 +1,7 @@
 import os
-import ssl
 import socket
+import ssl
+
 
 def secure_communication(host, port, certfile, keyfile, timeout=None):
     """
