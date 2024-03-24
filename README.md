@@ -1,6 +1,7 @@
 [![Jekyll site CI](https://github.com/KOSASIH/pi-velocity-core/actions/workflows/jekyll-docker.yml/badge.svg)](https://github.com/KOSASIH/pi-velocity-core/actions/workflows/jekyll-docker.yml)
 [![Deploy static content to Pages](https://github.com/KOSASIH/pi-velocity-core/actions/workflows/static.yml/badge.svg)](https://github.com/KOSASIH/pi-velocity-core/actions/workflows/static.yml)
 [![CodeQL](https://github.com/KOSASIH/pi-velocity-core/actions/workflows/codeql.yml/badge.svg)](https://github.com/KOSASIH/pi-velocity-core/actions/workflows/codeql.yml)
+[![Greetings](https://github.com/KOSASIH/pi-velocity-core/actions/workflows/greetings.yml/badge.svg)](https://github.com/KOSASIH/pi-velocity-core/actions/workflows/greetings.yml)
 
 # pi-velocity-core
 
