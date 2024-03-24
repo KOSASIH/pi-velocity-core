@@ -22,7 +22,9 @@ def handle_outgoing_connections(peer_list):
             print(f"Connected to peer {peer}")
 
             # Start a new thread for handling the outgoing connection
-            thread = threading.Thread(target=handle_client_connection, args=(connection,))
+            thread = threading.Thread(
+                target=handle_client_connection, args=(connection,)
+            )
             thread.start()
 
         except Exception as e:
