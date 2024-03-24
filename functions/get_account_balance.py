@@ -10,4 +10,4 @@ def get_account_balance(account_address):
     account = get_account_from_blockchain(account_address)
 
     # Return the balance of the account
-    return account['balance']
+    return account["balance"]
