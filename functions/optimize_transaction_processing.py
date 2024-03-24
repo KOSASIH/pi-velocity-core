@@ -18,9 +18,9 @@ def optimize_transaction_processing(transaction_list):
     seen = set()
     optimized_list = []
     for tx in transaction_list:
-        if tx['id'] in seen:
+        if tx["id"] in seen:
             continue
-        seen.add(tx['id'])
+        seen.add(tx["id"])
         optimized_list.append(tx)
 
     # Check if optimization was successful
