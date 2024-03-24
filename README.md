@@ -1,3 +1,5 @@
+[![Jekyll site CI](https://github.com/KOSASIH/pi-velocity-core/actions/workflows/jekyll-docker.yml/badge.svg)](https://github.com/KOSASIH/pi-velocity-core/actions/workflows/jekyll-docker.yml)
+
 # pi-velocity-core
 
 pi-velocity-core is a cutting-edge high-tech system for Pi Network, focused on providing high-speed transaction processing to ensure fast and efficient transactions.
