@@ -12,8 +12,9 @@ def get_transaction_history(user_address, pi_network):
 
     # Filter out the incoming and outgoing transactions
     transaction_history = [
-        t for t in user_transactions
-        if t['from'] == user_address or t['to'] == user_address
+        t
+        for t in user_transactions
+        if t["from"] == user_address or t["to"] == user_address
     ]
 
     return transaction_history
