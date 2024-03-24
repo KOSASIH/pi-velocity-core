@@ -1,5 +1,6 @@
 import time
 
+
 class Network:
     def __init__(self):
         self.status = "idle"
