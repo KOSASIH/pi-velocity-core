@@ -1,6 +1,7 @@
 import hashlib
 import json
 
+
 def broadcast_transaction(transaction):
     """
     Broadcasts the given transaction to the Pi Network.
