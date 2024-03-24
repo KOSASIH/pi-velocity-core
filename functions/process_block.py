@@ -15,7 +15,7 @@ def process_block(block, network):
         return False
 
     # Process the transactions in the block
-    for transaction in block['transactions']:
+    for transaction in block["transactions"]:
         if not process_transaction(transaction, network):
             return False
 
