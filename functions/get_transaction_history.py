@@ -14,7 +14,7 @@ def get_transaction_history(user_address, pi_network):
     transaction_history = [
         t
         for t in user_transactions
-        if t["from"] == user_address or t["to"] == user_address
+        if user_address in (t["from"], t["to"])
     ]
 
     return transaction_history
