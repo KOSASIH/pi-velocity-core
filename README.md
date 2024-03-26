@@ -1,3 +1,4 @@
+![Static Badge](https://img.shields.io/badge/High-Tech-green)
 [![CodeFactor](https://www.codefactor.io/repository/github/kosasih/pi-velocity-core/badge)](https://www.codefactor.io/repository/github/kosasih/pi-velocity-core)
 [![Jekyll site CI](https://github.com/KOSASIH/pi-velocity-core/actions/workflows/jekyll-docker.yml/badge.svg)](https://github.com/KOSASIH/pi-velocity-core/actions/workflows/jekyll-docker.yml)
 [![Deploy static content to Pages](https://github.com/KOSASIH/pi-velocity-core/actions/workflows/static.yml/badge.svg)](https://github.com/KOSASIH/pi-velocity-core/actions/workflows/static.yml)
