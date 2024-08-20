@@ -2,7 +2,7 @@
 Flask==2.2.5
 
 # Third-party dependencies
-nltk==3.7
+nltk==3.9
 spacy==3.3.0
 
 # Optional dependencies
